@@ -1,0 +1,32 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "build",
+			"path": "LegacyActivitiesDashboard/client-side/",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: build - LegacyActivitiesDashboard/client-side",
+			"detail": "rollup -c"
+		},
+		{
+			"type": "npm",
+			"script": "build",
+			"path": "LegacyActivitiesDashboard/server-side/",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: build - LegacyActivitiesDashboard/server-side",
+			"detail": "rollup -c rollup.config.js"
+		},
+		{
+			"type": "npm",
+			"script": "build",
+			"path": "LegacyActivitiesDashboard/",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: build - LegacyActivitiesDashboard",
+			"detail": "cd ./server-side && npm run build && cd .. && cd ./client-side && npm run build && cd .."
+		}
+	]
+}

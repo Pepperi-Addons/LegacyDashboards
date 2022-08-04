@@ -1,0 +1,35 @@
+{
+  "AddonUUID": "35d84005-24b3-4b18-a65b-0aebb133b650",
+  "AddonVersion": "0.0.5",
+  "DebugPort": 4400,
+  "WebappBaseUrl": "https://app.sandbox.pepperi.com",
+  "DefaultEditor": "editor",
+  "Endpoints": [
+    "installation.js",
+    "api.ts"
+  ],
+  "Editors": [
+    "main",
+    "settings_iframe",
+    "src_app_components_settings-iframe_settings-iframe_module_ts",
+    "vendors-node_modules_pepperi-addons_papi-sdk_dist_index_js-node_modules_jwt-decode_lib_index_js"
+  ],
+  "Assets": [
+    "en.json",
+    "en.ngx-lib.json",
+    "he.json"
+  ],
+  "PublishConfig": {
+    "ClientStack": "ng10",
+    "Editors": [
+      {
+        "ParentPackageName": "Data",
+        "PackageName": "editor?view=reps_target_dashboard",
+        "Description": "Reps Target Dashboard"
+      }
+    ],
+    "Dependencies": {
+      "webapp": "16.50.90"
+    }
+  }
+}

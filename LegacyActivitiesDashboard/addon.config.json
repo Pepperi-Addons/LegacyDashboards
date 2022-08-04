@@ -1,0 +1,35 @@
+{
+  "AddonUUID": "338f2dc4-eb25-4d0a-b040-07c7319dd4a6",
+  "AddonVersion": "0.0.13",
+  "DebugPort": 4400,
+  "WebappBaseUrl": "https://app.sandbox.pepperi.com",
+  "DefaultEditor": "editor",
+  "Endpoints": [
+    "installation.js",
+    "api.ts"
+  ],
+  "Editors": [
+    "main",
+    "settings_iframe",
+    "src_app_components_settings-iframe_settings-iframe_module_ts",
+    "vendors-node_modules_pepperi-addons_papi-sdk_dist_index_js-node_modules_jwt-decode_lib_index_js"
+  ],
+  "Assets": [
+    "en.json",
+    "en.ngx-lib.json",
+    "he.json"
+  ],
+  "PublishConfig": {
+    "ClientStack": "ng10",
+    "Editors": [
+      {
+        "ParentPackageName": "Data",
+        "PackageName": "editor?view=activities_dashboard",
+        "Description": "Activities Dashboard"
+      }
+    ],
+    "Dependencies": {
+      "webapp": "16.50.90"
+    }
+  }
+}

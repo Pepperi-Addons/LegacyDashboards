@@ -1,0 +1,35 @@
+{
+  "AddonUUID": "cb7f76fd-513c-4347-9364-65f4d3bd85ff",
+  "AddonVersion": "0.0.4",
+  "DebugPort": 4400,
+  "WebappBaseUrl": "https://app.sandbox.pepperi.com",
+  "DefaultEditor": "editor",
+  "Endpoints": [
+    "installation.js",
+    "api.ts"
+  ],
+  "Editors": [
+    "main",
+    "settings_iframe",
+    "src_app_components_settings-iframe_settings-iframe_module_ts",
+    "vendors-node_modules_pepperi-addons_papi-sdk_dist_index_js-node_modules_jwt-decode_lib_index_js"
+  ],
+  "Assets": [
+    "en.json",
+    "en.ngx-lib.json",
+    "he.json"
+  ],
+  "PublishConfig": {
+    "ClientStack": "ng10",
+    "Editors": [
+      {
+        "ParentPackageName": "Data",
+        "PackageName": "editor?view=sales_dashboard",
+        "Description": "Sales Dashboard"
+      }
+    ],
+    "Dependencies": {
+      "webapp": "16.50.90"
+    }
+  }
+}
