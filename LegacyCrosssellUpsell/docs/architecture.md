@@ -1,4 +1,4 @@
-# Legacy Activities Dashboard Architecture
+# Legacy Cross sell Up sell Architecture
 
 ## Overview
 
@@ -11,7 +11,7 @@
 
 | Addon  | Usage  |
 | ---------------------------|------------------------ |
-| [LegacyActivitiesDashboard](https://github.com/Pepperi-Addons/LegacyDashboards/tree/main) | is the addon that display the Activities dashboard content from the Wsin on an iFrame in the Settings menu|
+| [LegacyCrosssellUpsell](https://github.com/Pepperi-Addons/LegacyDashboards/tree/main/LegacyCrosssellUpsell) | is the addon that display the Cross-sell & Upsell page content from the Wsin on an iFrame in the Settings menu|
 
 ---
 

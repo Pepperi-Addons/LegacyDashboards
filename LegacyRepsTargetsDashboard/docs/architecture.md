@@ -1,4 +1,4 @@
-# Legacy Activities Dashboard Architecture
+# Legacy Reps targets Dashboard Architecture
 
 ## Overview
 
@@ -11,7 +11,7 @@
 
 | Addon  | Usage  |
 | ---------------------------|------------------------ |
-| [LegacyActivitiesDashboard](https://github.com/Pepperi-Addons/LegacyDashboards/tree/main) | is the addon that display the Activities dashboard content from the Wsin on an iFrame in the Settings menu|
+| [LegacyRepsTargetsDashboard](https://github.com/Pepperi-Addons/LegacyDashboards/tree/main/LegacyRepsTargetsDashboard) | Display reps targets charts from the Wsin on an iFrame in the Settings menu|
 
 ---
 

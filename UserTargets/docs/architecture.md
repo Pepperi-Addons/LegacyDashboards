@@ -1,4 +1,4 @@
-# Legacy Activities Dashboard Architecture
+# Manage User Targets Architecture
 
 ## Overview
 
@@ -11,7 +11,7 @@
 
 | Addon  | Usage  |
 | ---------------------------|------------------------ |
-| [LegacyActivitiesDashboard](https://github.com/Pepperi-Addons/LegacyDashboards/tree/main) | is the addon that display the Activities dashboard content from the Wsin on an iFrame in the Settings menu|
+| [UserTargets](https://github.com/Pepperi-Addons/LegacyDashboards/tree/main/UserTargets) | Display reps targets charts from the Wsin on an iFrame in the Settings menu|
 
 ---
 
@@ -36,7 +36,7 @@
 ## Topics
 
 - The addon add the query "webAppIframe=true" to the url, the old backoffice know to read this query and to show only the relevant parts of the page (for example: without the page menu)
-- The addon add the query "lang=${this.browserLang}" to the url, and the Activities dashboard will be display on the same languge as the webapp.
+- The addon add the query "lang=${this.browserLang}" to the url, and the User targets will be display on the same languge as the webapp.
 _____________________________________________________________
 ### CPI endpoints:
 
