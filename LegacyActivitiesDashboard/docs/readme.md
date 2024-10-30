@@ -5,7 +5,7 @@ This addon works exactly like the legacy settings addon. The reason it was separ
 ## High Level
 - When the addon is installed to the client, a new entry is added in the setting menu. The addon append an iframe on the page and displays the Dashboard content from our Wsim (Backoffice old site) inside it.
 - The Legacy activities addon give you a view of:
-    - Chart of all your Reps acactivities in your company.
+    - Chart of all your Reps activities in your company.
     - Activities submitted by users on a map view with a pin for each Activity at the location it was created or submitted.
     - List of all your Reps activities in your company.
 

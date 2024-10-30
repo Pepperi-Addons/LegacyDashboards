@@ -6,8 +6,8 @@ This addon works exactly like the legacy settings addon. The reason it was separ
 - When the addon is installed to the client, a new entry is added in the setting menu. The addon append an iframe on the page and displays the Dashboard content from our Wsim (Backoffice old site) inside it.
 - The Legacy Reps targets dashboard addon give you a view of:
     - Chart of all your Reps targets vs Actual in your company.
-    - Monthely annual targets - Actual vs Targets  Chart per Rep  (there is a drop down with the Reps list).
-    - Monthely revenue - Chart per Rep  (there is a drop down with the Reps list).
+    - Monthly  annual targets - Actual vs Targets  Chart per Rep  (there is a drop down with the Reps list).
+    - Monthly  revenue - Chart per Rep  (there is a drop down with the Reps list).
 
 You can filter this dashboard by:
   - Month (Jan, Feb....)
@@ -15,7 +15,7 @@ You can filter this dashboard by:
 
 - The addon add the query "webAppIframe=true" to the url, the old backoffice know to read this query and to show only the relevant parts of the page (for example: without the page menu)
 
-- The addon add the query "lang=${this.browserLang}" to the url, and the Activities dashboard will be display on the same languge as the webapp. 
+- The addon add the query "lang=${this.browserLang}" to the url, and the Reps target dashboard will be display on the same languge as the webapp. 
 ---
 
 ## Releases

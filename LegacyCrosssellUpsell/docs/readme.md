@@ -4,7 +4,7 @@ This addon works exactly like the legacy settings addon. The reason it was separ
 
 ## High Level
 - When the addon is installed to the client, a new entry is added in the Setting menu. The addon append an iframe on the page and displays the Cross sell & Up sell page content from our Wsim (Backoffice old site) inside it.
-- The Cross sell/Up sell addon give you ability to configure new, edit or delete exiting campigans, bonus items, price tiers, fix & sum package bonus.
+- The Cross sell/Up sell addon give you ability to configure new, edit or delete exiting campaigns, bonus items, price tiers, fix & sum package bonus.
 
 
 You can filter this dashboard by:

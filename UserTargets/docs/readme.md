@@ -5,7 +5,7 @@ This addon works exactly like the legacy settings addon. The reason it was separ
 ## High Level
 - When the addon is installed to the client, a new entry is added in the setting menu. The addon append an iframe on the page and displays the Dashboard content from our Wsim (Backoffice old site) inside it.
 - The User targets addon give the ability to:
-    - Sales Reps targets list filterd by year.
+    - Sales Reps targets list filtered  by year.
     - All Sales Reps List with ability to configure monthly targets for reps
 
 You can filter this dashboard by:
