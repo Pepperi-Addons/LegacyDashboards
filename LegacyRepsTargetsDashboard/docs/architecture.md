@@ -16,8 +16,15 @@
 ---
 
 ## Data Model
+Each addon contains 2 HTML iframes.​
 
-[Provide any data models used by the addon (eg. ADAL tables etc.)]
+- ​The first, a hidden iframe, was built to allow the client to plant a cookie in order to enable the login to the old Wsim system.​
+
+- The second get the src property and display the page content. The src consists of a variable "backOfficeMainDom" &the address of the desired page (for example: "views/Agents/Special/SpecialOffers.aspx").​
+
+- The addon add the parameter "webAppIframe=true" to the url, the Wsim know to read this query and to show only the relevant parts of the page (for example: without the page menu).​
+
+- The addon add the parameter "lang=${this.browserLang}" to the url, so, the iframe contenet will be display on the same language as the webapp.
 
 ---
 

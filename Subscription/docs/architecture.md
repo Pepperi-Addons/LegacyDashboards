@@ -1,4 +1,4 @@
-# Legacy Cross sell Up sell Architecture
+# Subscription Architecture
 
 ## Overview
 
@@ -11,11 +11,12 @@
 
 | Addon  | Usage  |
 | ---------------------------|------------------------ |
-| [LegacyCrosssellUpsell](https://github.com/Pepperi-Addons/LegacyDashboards/tree/main/LegacyCrosssellUpsell) | is the addon that display the Cross-sell & Upsell page content from the Wsin on an iFrame in the Settings menu|
+| [Subsriptions](https://github.com/Pepperi-Addons/LegacyDashboards/tree/main/Subscription) | is the addon that display the Sucription details from the Wsin on an iFrame in the Settings menu|
 
 ---
 
 ## Data Model
+
 Each addon contains 2 HTML iframes.​
 
 - ​The first, a hidden iframe, was built to allow the client to plant a cookie in order to enable the login to the old Wsim system.​

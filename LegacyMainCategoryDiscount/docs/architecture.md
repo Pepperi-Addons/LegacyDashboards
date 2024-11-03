@@ -1,4 +1,4 @@
-# Legacy Cross sell Up sell Architecture
+# Legacy Main Category Discount Architecture
 
 ## Overview
 
@@ -11,7 +11,7 @@
 
 | Addon  | Usage  |
 | ---------------------------|------------------------ |
-| [LegacyCrosssellUpsell](https://github.com/Pepperi-Addons/LegacyDashboards/tree/main/LegacyCrosssellUpsell) | is the addon that display the Cross-sell & Upsell page content from the Wsin on an iFrame in the Settings menu|
+| [LegacyMainCategoryDiscount](https://github.com/Pepperi-Addons/LegacyDashboards/tree/main/LegacyMainCategoryDiscount) | is the addon that display the Activities dashboard content from the Wsin on an iFrame in the Settings menu|
 
 ---
 
@@ -43,7 +43,7 @@ Each addon contains 2 HTML iframes.​
 ## Topics
 
 - The addon add the query "webAppIframe=true" to the url, the old backoffice know to read this query and to show only the relevant parts of the page (for example: without the page menu)
-- The addon add the query "lang=${this.browserLang}" to the url, and the Activities dashboard will be display on the same languge as the webapp.
+- The addon add the query "lang=${this.browserLang}" to the url, and the main Category Discount will be display on the same languge as the webapp.
 _____________________________________________________________
 ### CPI endpoints:
 
